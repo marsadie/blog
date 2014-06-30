@@ -1,0 +1,26 @@
+title:            $ jekyll serve | Mars, front-end developer.
+description:      Powered by a lady developer
+baseurl:	  /blog
+signoff:          # Mars
+disqus_shortname: # 
+facebook_appid:   # 
+google_analytics: # 
+
+links:
+  - name:         about
+    url:          /about
+  - name:	  links
+    url:	  /links
+    external:     false
+  - name:         email
+    url:          mailto:marsadie@gmail.com
+    external:     false
+  - name:         where I work
+    url:          http://skreened.com
+    external:     true
+pygments:         true
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
