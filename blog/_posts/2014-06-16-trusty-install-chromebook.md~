@@ -1,0 +1,38 @@
+---
+layout: post
+title: My [Trusty] New Ubuntu install via Chromebook...
+---
+
+The weekend was dedicated to relaxing, spending one day with family and one day alone. Saturday my sister, her children, and I did dinner, then had ice cream. Sunday I took myself to brunch. Too much sashimi thrust me into a midday <del>coma</del> nap.
+
+Of course, I had some ongoing freelance work to wrap up as well. Weekends tend to be workdays to some extent after starting a full-time job post self-employment.
+
+But my nerd highlight of the weekend was -finally- getting Ubuntu onto my Chromebook. Afterward it essentially turns into a dualboot system (kind of), but one much more robust. For the purists that believe that a Chromebook is meant to remain a simple, Google-powered netbook - where's the fun in that?!
+
+On my Samsung Chromebook (ARM) I pressed Esc+Refresh+Power to cycle into Developer Mode. Wait a moment. Press Enter. Then, wait for it to delete your local files (which you'll want to back up beforehand) before booting into what looks like a fresh Chrome OS environment.
+
+The difference is, now you are able to type Ctrl+Alt+T to bring up a Terminal <del>window</del> tab.
+
+But first, [install crouton](http://goo.gl/fd3zc) and leave it in your Downloads folder.
+
+I had decided I wanted to install Ubuntu 14.04 Trusty. Both my Windows machine at home and my machine at work are running 12.04. Old, buggy, yet familiar. In with the new (and stable)!
+
+	shell
+
+That takes you into a shell environment where you are able to tinker to your heart's content. (Careful, don't break anything...)
+
+	$ sudo sh -e ~/Downloads/crouton/ -r trusty -t xfce
+
+The xfce desktop is fugly at best but that's what themes are for. We're kind of limited with 14.04 on Chromebook. No Unity.
+
+Either way, the installation was underway and at that point I took a shower and did my makeup while letting it finish.
+
+Once I returned it asked for a username and password. Success!
+
+Afterward, you'll want to enter
+
+	$ sudo startxfce4
+
+If you installed using xfce to switch into your [Trusty] new Linux environment.
+
+Spiffy!
