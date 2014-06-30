@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <meta content='My [Trusty] New Ubuntu install via Chromebook... - $ jekyll serve | Mars, front-end developer.' property='og:title' />
+    <title>My [Trusty] New Ubuntu install via Chromebook... - $ jekyll serve | Mars, front-end developer.</title>
+    <link href='/images/fav.png' rel='shortcut icon'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
+<!-- - -->
+<script src='/javascripts/jquery.js' type='text/javascript'></script>
+<script src='/javascripts/pd.js' type='text/javascript'></script>
+<script src='/javascripts/basics.js' type='text/javascript'></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<!-- - -->
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+<meta content="http://muan.co/images/og.png" property="og:image" />
+<meta content="" property="fb:app_id" />
+
+  <meta content='/2014/06/16/trusty-install-chromebook/' property='og:url' />
+  <meta content="The weekend was dedicated to relaxing, spending one day with family and one day alone. Saturday my sister, her childr..." property='og:description' />
+  <meta content="article" property="og:type" />
+
+<!-- - -->
+<script type='text/javascript'>
+  //<![CDATA[
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  //]]>
+</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=604714799556697";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  </head>
+  <body>
+    <header id="top">
+<a id="go-back-home" href="/"><img src="/images/mars.jpg" alt="Mars" width="53" height="59" class="circle"></a>
+<h2 id="header">&bull; $ jekyll serve &bull; a dev blog</h2>
+<p>Mars, front-end developer</p>
+</header>
+
+    <div id='container'>
+      <div class="block">
+  
+    <a target="_top" class="main" href="/about">about</a>
+  
+    <a target="_top" class="main" href="/links">links</a>
+  
+    <a target="_top" class="main" href="mailto:marsadie@gmail.com">email</a>
+  
+    <a target="_blank" class="main" href="http://skreened.com">where I work</a>
+  
+</div>
+      <section class="paging">
+  
+    <div class="left">
+      <a href="/2014/06/13/its-friday-13th/">
+        ‹
+      </a>
+    </div>
+  
+  
+    <div class="right">
+      <a href="/2014/06/20/friday-five/">
+        ›
+      </a>
+    </div>
+  
+</section>
+      <div class="content">
+        <section class='post'>
+          <h1>
+            <div class='date'>16 Jun 2014</div>
+            My [Trusty] New Ubuntu install via Chromebook...
+          </h1>
+          <p>The weekend was dedicated to relaxing, spending one day with family and one day alone. Saturday my sister, her children, and I did dinner, then had ice cream. Sunday I took myself to brunch. Too much sashimi thrust me into a midday <del>coma</del> nap.</p>
+
+<p>Of course, I had some ongoing freelance work to wrap up as well. Weekends tend to be workdays to some extent after starting a full-time job post self-employment.</p>
+
+<p>But my nerd highlight of the weekend was -finally- getting Ubuntu onto my Chromebook. Afterward it essentially turns into a dualboot system (kind of), but one much more robust. For the purists that believe that a Chromebook is meant to remain a simple, Google-powered netbook - where&rsquo;s the fun in that?!</p>
+
+<p>On my Samsung Chromebook (ARM) I pressed Esc+Refresh+Power to cycle into Developer Mode. Wait a moment. Press Enter. Then, wait for it to delete your local files (which you&rsquo;ll want to back up beforehand) before booting into what looks like a fresh Chrome OS environment.</p>
+
+<p>The difference is, now you are able to type Ctrl+Alt+T to bring up a Terminal <del>window</del> tab.</p>
+
+<p>But first, <a href="http://goo.gl/fd3zc">install crouton</a> and leave it in your Downloads folder.</p>
+
+<p>I decided I wanted to install Ubuntu 14.04 Trusty. Both my Windows machine at home and my machine at work are running 12.04 Precise. Old, buggy, yet familiar. In with the new (and stable)!</p>
+
+<p>Back to the Terminal.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">shell
+</code></pre></div>
+<p>That takes you into a shell environment where you are able to tinker to your heart&rsquo;s content. (Careful, don&rsquo;t break anything&hellip;)</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ sudo sh -e ~/Downloads/crouton -r trusty -t xfce,chromium
+</code></pre></div>
+<p>The xfce desktop is fugly at best but that&rsquo;s what themes are for. We&rsquo;re kind of limited with 14.04 on the ARM Chromebook. No Unity. (I tried both Unity and Gnome to no avail before reading that xfce was our best bet on an ARM Chromebook.) And naturally, you&rsquo;ll want to have Chromium installed.</p>
+
+<p>Either way, my installation was underway and at that point I took a shower and did my makeup while letting it finish.</p>
+
+<p>Once I returned it asked for a username and password. Success!</p>
+
+<p>Afterward, you&rsquo;ll want to enter your chroot:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ sudo enter-chroot
+</code></pre></div>
+<p>Then start your Linux environment.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ startxfce4
+</code></pre></div>
+<p>Replace xfce4 with whichever target environment you chose to switch into your [Trusty] new Linux environment.</p>
+
+<p>Spiffy!</p>
+
+          <br />
+<p>
+  Til next time,
+  
+<div class="sig">
+  Mars
+</div>
+</p>
+
+
+
+        </section>
+      </div>
+      
+
+      
+      <div class="block">
+  
+    <a target="_top" class="main" href="/about">about</a>
+  
+    <a target="_top" class="main" href="/links">links</a>
+  
+    <a target="_top" class="main" href="mailto:marsadie@gmail.com">email</a>
+  
+    <a target="_blank" class="main" href="http://skreened.com">where I work</a>
+  
+</div>
+    </div>
+    <footer>
+  <a href="http://jekyllrb.com" class="muted">built using Jekyll by command &hearts;</a>
+  <br />
+  <br />
+  <img src="/images/mars.jpg" alt="Mars" class="circle" /> 
+</footer>
+
+  </body>
+</html>

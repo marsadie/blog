@@ -1,8 +1,0 @@
-<br />
-<p>
-  Til next time,<br/>
-  {{ site.signoff }}
-<div class="sig">
-  Mars
-</div>
-</p>
