@@ -3,11 +3,11 @@ layout: post
 title: Latest Project > Skreened.com Redesign
 ---
 
-The dev team at Skreened just wrapped up redesign and redevelopment of [skreened.com](http://skreened.com), the e-commerce storefront of thousands of creatively made and ethically designed tees.
+The dev team at Skreened just wrapped up redesign and redevelopment of [skreened.com](http://skreened.com), the e-commerce storefront to thousands of creatively designed and ethically made apparel products.
 
 <img src="http://marsadie.github.io/blog/images/skreened-homepage.png" class="align-center" />
 
-Mobile-first was the name of the game. It needed to be responsive and look great across mobile devices old and new and among popular browsers, as well as on the big screen. We beat up and tested as much as we could (thanks in part to local coworking space [The Salt Mines](http://saltmines.us) before issuing the new release last week.
+Mobile-first was the name of the game. It needed to be responsive and look great across mobile devices old and new and among popular browsers, as well as on the big screen. We beat up and tested as much as we could (thanks in part to local coworking space [The Salt Mines](http://saltmines.us)) before issuing the new release last week.
 
 <img src="http://marsadie.github.io/blog/images/skreened-responsive.png" class="align-center" />
 
