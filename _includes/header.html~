@@ -1,5 +1,5 @@
 <header id="top">
-<a id="go-back-home" href="/"><img src="{{ site.base }}/images/mars.jpg" alt="Mars" width="53" height="59" class="circle"></a>
+<a id="go-back-home" href="/"><img src="{{ site.baseurl }}/images/mars.jpg" alt="Mars" width="53" height="59" class="circle"></a>
 <h2 id="header">&bull; $ jekyll serve &bull; a dev blog</h2>
 <p>Mars, front-end developer</p>
 </header>
