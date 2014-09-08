@@ -7,7 +7,7 @@ The dev team at Skreened just wrapped up redesign and redevelopment of [skreened
 
 <img src="http://marsadie.github.io/blog/images/skreened-homepage.png" class="align-center" />
 
-Mobile-first was the name of the game. It needed to be responsive and look great across mobile devices old and new and among popular browsers, as well as on the big screen. We beat up and tested as much as we could (thanks in part to local coworking space The Salt Mines) before issuing the new release last week.
+Mobile-first was the name of the game. It needed to be responsive and look great across mobile devices old and new and among popular browsers, as well as on the big screen. We beat up and tested as much as we could (thanks in part to local coworking space [The Salt Mines](http://saltmines.us) before issuing the new release last week.
 
 <img src="http://marsadie.github.io/blog/images/skreened-responsive.png" class="align-center" />
 
