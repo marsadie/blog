@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Latest Project > Skreened.com Redesign</title>
+        <description>&lt;p&gt;The dev team at Skreened just wrapped up redesign and redevelopment of &lt;a href=&quot;http://skreened.com&quot;&gt;skreened.com&lt;/a&gt;, the e-commerce storefront of thousands of creatively made and ethically designed tees.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/skreened-home-page.png&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mobile-first was the name of the game. It needed to be responsive and look great across mobile devices old and new and among popular browsers, as well as on the big screen. We beat up and tested as much as we could (thanks in part to local coworking space The Salt Mines) before issuing the new release last week.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/skreened-responsive.png&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My role was front-end development and I couldn&amp;rsquo;t be happier to work with such a great team. My own toolkit included Linux (Ubuntu 14.04 Trusty), PHPStorm, Less/CSS, and Git version control (a must for team projects and a system I&amp;rsquo;m attempting to master - no pun intended!)&lt;/p&gt;
+
+&lt;p&gt;We went with the Bootstrap 3 framework. I did a lot of finger-cracking front-end coding including HTML5, CSS3 by way of Less, jQuery, and PHP.&lt;/p&gt;
+
+&lt;p&gt;With the limited amount of time we had to begin and complete this release, and succeeding, I&amp;rsquo;m proud to be a part of Skreened&amp;rsquo;s dev team. It&amp;rsquo;s been a pleasure working with our pixel-perfect UX/UI designer, our savvy backend developer, and our awesome team lead who holds everything together. We couldn&amp;rsquo;t work better together, and I realize that as a blessing.&lt;/p&gt;
+
+&lt;p&gt;Transitioning from freelance to full-time work has been a breeze thanks to Skreened and I was ecstatic to take on such a substantial project from the beginning - redesigning a successful e-commerce website to make it even better.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Sep 2014 00:00:00 -0400</pubDate>
+        <link>/2014/09/08/skreened-redesign/</link>
+        <guid isPermaLink="true">/2014/09/08/skreened-redesign/</guid>
+      </item>
+    
+      <item>
         <title>Switching from GoDaddy/WordPress to GitHub Pages/Jekyll</title>
         <description>&lt;p&gt;I dumped my remaining GoDaddy hosting account earlier this month and am not really looking to go back. I was paying around $108/year for the dedicated space.&lt;/p&gt;
 

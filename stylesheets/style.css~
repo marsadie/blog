@@ -12,10 +12,6 @@ h2 {
   line-height: 26px;
 }
 
-#top {
-  padding: 17px 0;
-}
-
 .sig {
   font-size: 32px;
   font-family: 'Great Vibes', cursive;
