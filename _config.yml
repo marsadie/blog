@@ -9,8 +9,6 @@ google_analytics: #
 links:
   - name:         about
     url:          /about
-  - name:	  links
-    url:	  /links
   - name:         email
     url:          mailto:marsadie@gmail.com
     external:     true

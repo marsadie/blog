@@ -1,6 +1,6 @@
 title:            $ jekyll serve | Mars, front-end developer.
 description:      Powered by a lady developer
-baseurl:	  #
+baseurl:	  /blog
 signoff:          # Mars
 disqus_shortname: # 
 facebook_appid:   # 
@@ -8,13 +8,12 @@ google_analytics: #
 
 links:
   - name:         about
-    url:          /blog/about
+    url:          /about
   - name:	  links
-    url:	  /blog/links
-    external:     false
+    url:	  /links
   - name:         email
     url:          mailto:marsadie@gmail.com
-    external:     false
+    external:     true
   - name:         where I work
     url:          http://skreened.com
     external:     true
