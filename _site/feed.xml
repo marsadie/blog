@@ -12,7 +12,7 @@
 
 &lt;p&gt;Rather than write my own guide, I&amp;rsquo;ll link to a helpful post that guided me through the process of installing LAMP and WordPress locally on Ubuntu 14.04:&lt;/p&gt;
 
-&lt;p&gt;&amp;bull; (How To Install Wordpress on Ubuntu 12.04)[https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-12-04]&lt;/p&gt;
+&lt;p&gt;&amp;bull; &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-12-04&quot;&gt;How To Install Wordpress on Ubuntu 12.04&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Since the author wrote the guide for 12.04, here&amp;rsquo;s my tip to save you some time and headache:&lt;/p&gt;
 
@@ -31,7 +31,7 @@ sudo chmod g+w /var/www/html -R
 &lt;p&gt;Though she mentions it, for future reference - all you need to do to grab a copy of the latest WordPress tarball is command:&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;wget http://wordpress.org/latest.tar.gz
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Regarding (Forge)[http://forge.thethemefoundry.com], I have yet to use it, but I plan to for theming freelance WordPress projects on Linux. It comes equipped with CSS compilers and all the tools needed to produce a neat little WordPress theme file ready for upload. The project hasn&amp;rsquo;t been updated in a while so I&amp;rsquo;m hoping it&amp;rsquo;s still operational.&lt;/p&gt;
+&lt;p&gt;Regarding &lt;a href=&quot;http://forge.thethemefoundry.com&quot;&gt;Forge&lt;/a&gt;, I have yet to use it, but I plan to for theming freelance WordPress projects on Linux. It comes equipped with CSS compilers and all the tools needed to produce a neat little WordPress theme file ready for upload. The project hasn&amp;rsquo;t been updated in a while so I&amp;rsquo;m hoping it&amp;rsquo;s still operational.&lt;/p&gt;
 
 &lt;p&gt;If you know of a better/updated workflow for theming WP on Linux, I&amp;rsquo;d love to know.&lt;/p&gt;
 </description>

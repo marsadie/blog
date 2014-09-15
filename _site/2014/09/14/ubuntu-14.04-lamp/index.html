@@ -36,13 +36,8 @@
     })();
   //]]>
 </script>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=604714799556697";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
   </head>
   <body>
@@ -56,8 +51,6 @@
       <div class="block">
   
     <a target="_top" class="main" href="/blog/about">about</a>
-  
-    <a target="_top" class="main" href="/blog/links">links</a>
   
     <a target="_blank" class="main" href="mailto:marsadie@gmail.com">email</a>
   
@@ -85,7 +78,7 @@
 
 <p>Rather than write my own guide, I&rsquo;ll link to a helpful post that guided me through the process of installing LAMP and WordPress locally on Ubuntu 14.04:</p>
 
-<p>&bull; (How To Install Wordpress on Ubuntu 12.04)[https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-12-04]</p>
+<p>&bull; <a href="https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-12-04">How To Install Wordpress on Ubuntu 12.04</a></p>
 
 <p>Since the author wrote the guide for 12.04, here&rsquo;s my tip to save you some time and headache:</p>
 
@@ -104,7 +97,7 @@ sudo chmod g+w /var/www/html -R
 <p>Though she mentions it, for future reference - all you need to do to grab a copy of the latest WordPress tarball is command:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">wget http://wordpress.org/latest.tar.gz
 </code></pre></div>
-<p>Regarding (Forge)[http://forge.thethemefoundry.com], I have yet to use it, but I plan to for theming freelance WordPress projects on Linux. It comes equipped with CSS compilers and all the tools needed to produce a neat little WordPress theme file ready for upload. The project hasn&rsquo;t been updated in a while so I&rsquo;m hoping it&rsquo;s still operational.</p>
+<p>Regarding <a href="http://forge.thethemefoundry.com">Forge</a>, I have yet to use it, but I plan to for theming freelance WordPress projects on Linux. It comes equipped with CSS compilers and all the tools needed to produce a neat little WordPress theme file ready for upload. The project hasn&rsquo;t been updated in a while so I&rsquo;m hoping it&rsquo;s still operational.</p>
 
 <p>If you know of a better/updated workflow for theming WP on Linux, I&rsquo;d love to know.</p>
 
@@ -121,14 +114,21 @@ sudo chmod g+w /var/www/html -R
 
         </section>
       </div>
-      
+        <div class="block">
+
+  <div class="button">
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+  
+  <div class="g-plus" data-action="share" data-href="/blog/2014/09/14/ubuntu-14.04-lamp/"></div>
+  
+</div>
 
       
       <div class="block">
   
     <a target="_top" class="main" href="/blog/about">about</a>
-  
-    <a target="_top" class="main" href="/blog/links">links</a>
   
     <a target="_blank" class="main" href="mailto:marsadie@gmail.com">email</a>
   
