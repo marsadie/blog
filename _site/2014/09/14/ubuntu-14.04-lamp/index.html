@@ -1,7 +1,7 @@
 <html>
   <head>
-    <meta content='Friday Five 6.20.14 - $ jekyll serve | Mars, front-end developer.' property='og:title' />
-    <title>Friday Five 6.20.14 - $ jekyll serve | Mars, front-end developer.</title>
+    <meta content='LAMP, WordPress, and Forge theming on Ubuntu 14.04 - $ jekyll serve | Mars, front-end developer.' property='og:title' />
+    <title>LAMP, WordPress, and Forge theming on Ubuntu 14.04 - $ jekyll serve | Mars, front-end developer.</title>
     <link href='/blog/images/fav.png' rel='shortcut icon'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
 <link href='/blog/stylesheets/style.css' rel='stylesheet' type='text/css' />
@@ -18,8 +18,8 @@
 <meta content="http://muan.co/images/og.png" property="og:image" />
 <meta content="" property="fb:app_id" />
 
-  <meta content='/blog/2014/06/20/friday-five/' property='og:url' />
-  <meta content="{[How to Land Your First Job as a Web Designer/Developer](http://bradfrostweb.com/blog/web/advice-to-new-web-designer..." property='og:description' />
+  <meta content='/blog/2014/09/14/ubuntu-14.04-lamp/' property='og:url' />
+  <meta content="I wanted to do a quick post on setting up LAMP, WordPress, then ultimately using Forge for WordPress theming on Ubunt..." property='og:description' />
   <meta content="article" property="og:type" />
 
 <!-- - -->
@@ -68,36 +68,45 @@
       <section class="paging">
   
     <div class="left">
-      <a href="/2014/06/16/trusty-install-chromebook/">
+      <a href="/2014/09/08/skreened-redesign/">
         ‹
       </a>
     </div>
   
   
-    <div class="right">
-      <a href="/2014/06/24/game-change/">
-        ›
-      </a>
-    </div>
-  
 </section>
       <div class="content">
         <section class='post'>
           <h1>
-            <div class='date'>20 Jun 2014</div>
-            Friday Five 6.20.14
+            <div class='date'>14 Sep 2014</div>
+            LAMP, WordPress, and Forge theming on Ubuntu 14.04
           </h1>
-          <p>{<a href="http://bradfrostweb.com/blog/web/advice-to-new-web-designers/">How to Land Your First Job as a Web Designer/Developer</a>} &bull; <em>I landed my first salary position as a web developer this spring and these are great tips. Prove your chops by experience - no fancy degree needed!</em></p>
+          <p>I wanted to do a quick post on setting up LAMP, WordPress, then ultimately using Forge for WordPress theming on Ubuntu Trusty 14.04.</p>
 
-<p>{<a href="http://ostraining.com/blog/coding/bootstrap-right-way/">Using Bootstrap the Right (Semantic) Way</a>} &bull; <em>Let&rsquo;s do ourselves a favor and begin utilizing Less mixins already built into Bootstrap to produce more semantic code, better suited for future updates.</em></p>
+<p>Rather than write my own guide, I&rsquo;ll link to a helpful post that guided me through the process of installing LAMP and WordPress locally on Ubuntu 14.04:</p>
 
-<p>Speaking of&hellip;</p>
+<p>&bull; (How To Install Wordpress on Ubuntu 12.04)[https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-12-04]</p>
 
-<p>{<a href="http://lesscss.org/features/">Features of the Less language</a>} &bull; <em>Less can do some pretty stellar things to both empower and simplify your CSS code. Educate yo self.</em></p>
+<p>Since the author wrote the guide for 12.04, here&rsquo;s my tip to save you some time and headache:</p>
 
-<p>{<a href="https://github.com/dypsilon/frontend-dev-bookmarks">Frontend Dev Bookmarks</a>} &bull; <em>Too cool. I have this page docked to my desktop at work for hyper accessibility.</em></p>
+<p>Anywhere /var/www/ is mentioned, use /var/www<strong>/html</strong>/ instead since that&rsquo;s where Apache sets up sites on 14.04.</p>
 
-<p>{<a href="http://ami.responsivedesign.is">Am I responsive?</a>} &bull; <em>Well? Are you?</em></p>
+<p>For example, instead of using these commands to grant Apache ownership:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo chown username:www-data /var/www -R
+sudo chmod g+w /var/www -R 
+</code></pre></div>
+<p>Use:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo chown username:www-data /var/www/html -R 
+sudo chmod g+w /var/www/html -R 
+</code></pre></div>
+<p>This ensures your LAMP setup will work on 14.04. <em>The more you know.</em></p>
+
+<p>Though she mentions it, for future reference - all you need to do to grab a copy of the latest WordPress tarball is command:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">wget http://wordpress.org/latest.tar.gz
+</code></pre></div>
+<p>Regarding (Forge)[http://forge.thethemefoundry.com], I have yet to use it, but I plan to for theming freelance WordPress projects on Linux. It comes equipped with CSS compilers and all the tools needed to produce a neat little WordPress theme file ready for upload. The project hasn&rsquo;t been updated in a while so I&rsquo;m hoping it&rsquo;s still operational.</p>
+
+<p>If you know of a better/updated workflow for theming WP on Linux, I&rsquo;d love to know.</p>
 
           <br />
 <p>

@@ -7,14 +7,48 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>LAMP, WordPress, and Forge theming on Ubuntu 14.04</title>
+        <description>&lt;p&gt;I wanted to do a quick post on setting up LAMP, WordPress, then ultimately using Forge for WordPress theming on Ubuntu Trusty 14.04.&lt;/p&gt;
+
+&lt;p&gt;Rather than write my own guide, I&amp;rsquo;ll link to a helpful post that guided me through the process of installing LAMP and WordPress locally on Ubuntu 14.04:&lt;/p&gt;
+
+&lt;p&gt;&amp;bull; (How To Install Wordpress on Ubuntu 12.04)[https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-12-04]&lt;/p&gt;
+
+&lt;p&gt;Since the author wrote the guide for 12.04, here&amp;rsquo;s my tip to save you some time and headache:&lt;/p&gt;
+
+&lt;p&gt;Anywhere /var/www/ is mentioned, use /var/www&lt;strong&gt;/html&lt;/strong&gt;/ instead since that&amp;rsquo;s where Apache sets up sites on 14.04.&lt;/p&gt;
+
+&lt;p&gt;For example, instead of using these commands to grant Apache ownership:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;sudo chown username:www-data /var/www -R
+sudo chmod g+w /var/www -R 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Use:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;sudo chown username:www-data /var/www/html -R 
+sudo chmod g+w /var/www/html -R 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This ensures your LAMP setup will work on 14.04. &lt;em&gt;The more you know.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Though she mentions it, for future reference - all you need to do to grab a copy of the latest WordPress tarball is command:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;wget http://wordpress.org/latest.tar.gz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Regarding (Forge)[http://forge.thethemefoundry.com], I have yet to use it, but I plan to for theming freelance WordPress projects on Linux. It comes equipped with CSS compilers and all the tools needed to produce a neat little WordPress theme file ready for upload. The project hasn&amp;rsquo;t been updated in a while so I&amp;rsquo;m hoping it&amp;rsquo;s still operational.&lt;/p&gt;
+
+&lt;p&gt;If you know of a better/updated workflow for theming WP on Linux, I&amp;rsquo;d love to know.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 00:00:00 -0400</pubDate>
+        <link>/2014/09/14/ubuntu-14.04-lamp/</link>
+        <guid isPermaLink="true">/2014/09/14/ubuntu-14.04-lamp/</guid>
+      </item>
+    
+      <item>
         <title>Latest Project > Skreened.com Redesign</title>
-        <description>&lt;p&gt;The dev team at Skreened just wrapped up redesign and redevelopment of &lt;a href=&quot;http://skreened.com&quot;&gt;skreened.com&lt;/a&gt;, the e-commerce storefront of thousands of creatively made and ethically designed tees.&lt;/p&gt;
+        <description>&lt;p&gt;The dev team at Skreened just wrapped up redesign and redevelopment of &lt;a href=&quot;http://skreened.com&quot;&gt;skreened.com&lt;/a&gt;, the e-commerce storefront to thousands of creatively designed and ethically made apparel products.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/skreened-home-page.png&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://marsadie.github.io/blog/images/skreened-homepage.png&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Mobile-first was the name of the game. It needed to be responsive and look great across mobile devices old and new and among popular browsers, as well as on the big screen. We beat up and tested as much as we could (thanks in part to local coworking space The Salt Mines) before issuing the new release last week.&lt;/p&gt;
+&lt;p&gt;Mobile-first was the name of the game. It needed to be responsive and look great across mobile devices old and new and among popular browsers, as well as on the big screen. We beat up and tested as much as we could (thanks in part to local coworking space &lt;a href=&quot;http://saltmines.us&quot;&gt;The Salt Mines&lt;/a&gt;) before issuing the new release last week.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/skreened-responsive.png&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://marsadie.github.io/blog/images/skreened-responsive.png&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My role was front-end development and I couldn&amp;rsquo;t be happier to work with such a great team. My own toolkit included Linux (Ubuntu 14.04 Trusty), PHPStorm, Less/CSS, and Git version control (a must for team projects and a system I&amp;rsquo;m attempting to master - no pun intended!)&lt;/p&gt;
 
